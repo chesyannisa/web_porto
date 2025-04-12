@@ -1,0 +1,399 @@
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+} 
+/* a blue color as a generic focus style */
+/* button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}  */
+
+.about {
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about .div {
+    background-color: #242424;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+
+  /* ini tulisan "chesyannisa" */
+  .about .title {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    font-family: var(--header-4-font-family);
+    font-weight: var(--header-4-font-weight);
+    color: #fffafa;
+    font-size: var(--header-4-font-size);
+    letter-spacing: var(--header-4-letter-spacing);
+    line-height: var(--header-4-line-height);
+    white-space: nowrap;
+    font-style: var(--header-4-font-style);
+  }
+
+  /* ini ngatur si "project" ama "about" */
+  .about .navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    font-family: var(--header-5-font-family);
+    font-weight: var(--header-5-font-weight);
+    color: #fffafa;
+    font-size: var(--header-5-font-size);
+    letter-spacing: var(--header-5-letter-spacing);
+    line-height: var(--header-5-line-height);
+    white-space: nowrap;
+    font-style: var(--header-5-font-style);
+  }
+
+  /* ini buat tulisan "chesya annisa izzati" */
+  .about .name {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: var(--header-2-font-family);
+    font-weight: var(--header-2-font-weight);
+    color: #fffafa;
+    font-size: var(--header-2-font-size);
+    letter-spacing: var(--header-2-letter-spacing);
+    line-height: var(--header-2-line-height);
+    white-space: nowrap;
+    font-style: var(--header-2-font-style);
+  }
+
+  /* buat tulisan prodi */
+  .about .prodi {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: var(--header-4-font-family);
+    font-weight: var(--header-4-font-weight);
+    color: #fffafa;
+    font-size: var(--header-4-font-size);
+    letter-spacing: var(--header-4-letter-spacing);
+    line-height: var(--header-4-line-height);
+    white-space: nowrap;
+    font-style: var(--header-4-font-style);
+  }
+
+  .about .overlap-group-2 {
+    position: absolute;
+    width: 1550px;
+    height: 1204px;
+    top: 0;
+    left: 616px;
+  } 
+
+  /* ini kayaknya yg main rectangle deh */
+  .about .biografi-rectangle {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    top: 320px;
+    right: 380px;
+    text-align: center;
+    background-color: #372b2b;
+    border-radius: 30px;
+  } 
+
+  .about .biografi {
+    position: absolute; 
+    top: 350px;
+    left: -350px;
+    font-family: var(--sub-header-1-font-family);
+    font-weight: var(--sub-header-1-font-weight);
+    color: #fffafa;
+    font-size: var(--sub-header-1-font-size);
+    letter-spacing: var(--sub-header-1-letter-spacing);
+    line-height: var(--sub-header-1-line-height);
+    font-style: var(--sub-header-1-font-style);
+    
+    max-width: 750px;      /* batasi lebarnya */
+    margin: 0 auto;        /* biar posisi tengah */
+    text-align: justify;   /* biar rata kanan kiri */
+    white-space: normal;   /* biar bisa pindah baris */
+    padding: 0 20px;       /* kasih jarak kiri-kanan */
+  }
+  
+  .about .experience {
+    position: absolute;
+    top: 650px;
+    left: -80px;
+    font-family: var(--header-4-font-family);
+    font-weight: var(--header-4-font-weight);
+    color: #fffafa;
+    font-size: var(--header-4-font-size);
+    letter-spacing: var(--header-4-letter-spacing);
+    line-height: var(--header-4-line-height);
+    white-space: nowrap;
+    font-style: var(--header-4-font-style);
+  }
+
+  /* .about .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 330px;
+    left: -436px;
+  }
+
+  .about .overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+  }
+
+  .about .overlap-2 {
+    position: absolute;
+    width: 964px;
+    height: 1088px;
+    top: 754px;
+    left: 0;
+  } */
+
+  .about .ellipse {
+    position: absolute;
+    top: 80px;
+    left: -200px; 
+    width: 500px;
+    height: 500px;
+    border-radius: 407px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 248, 159, 0.5) 0%,
+      rgba(255, 248, 159, 0) 100%
+    );
+  }
+
+  .about .ellipse-2 {
+    position: absolute;
+    top: 800px;
+    right: -250px; 
+    width: 500px;
+    height: 500px;
+    border-radius: 407px;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(250, 150, 186, 0.5) 0%,
+        rgba(250, 150, 186, 0) 100%
+    );
+  }
+
+  .about .card {
+    top: 0;
+    left: 620px;
+    position: absolute;
+    width: 344px;
+    height: 450px;
+    background-color: #372b2b;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+   .about .card-2 {
+    top: 754px;
+    left: 736px;
+    position: absolute;
+    width: 344px;
+    height: 450px;
+    background-color: #372b2b;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  .about .card-3 {
+    top: 754px;
+    left: 984px;
+    position: absolute;
+    width: 344px;
+    height: 450px;
+    background-color: #372b2b;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  /* .about .rectangle {
+    position: absolute;
+    width: 252px;
+    height: 150px;
+    top: 50px;
+    left: 46px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+  } */
+
+
+  /* .about .text-wrapper {
+    position: absolute;
+    top: 248px;
+    left: 110px;
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: #fffafa;
+    font-size: var(--body-font-size);
+    letter-spacing: var(--body-letter-spacing);
+    line-height: var(--body-line-height);
+    white-space: nowrap;
+    font-style: var(--body-font-style);
+  } */
+
+  /* .about .frame {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 572px;
+    left: 620px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  } */
+
+  /* .about .frame-2 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 840px;
+    left: 620px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  } */
+
+  /* .about .frame-3 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 1326px;
+    left: 896px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  } */
+
+  /* .about .frame-4 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 1594px;
+    left: 896px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  } */
+
+  /* .about .text-wrapper-4 {
+    position: absolute;
+    top: 1263px;
+    left: 1111px;
+    font-family: var(--header-4-font-family);
+    font-weight: var(--header-4-font-weight);
+    color: #fffafa;
+    font-size: var(--header-4-font-size);
+    letter-spacing: var(--header-4-letter-spacing);
+    line-height: var(--header-4-line-height);
+    white-space: nowrap;
+    font-style: var(--header-4-font-style);
+  } */
+
+  /* .about .frame-5 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 1326px;
+    left: 1172px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  }
+
+  .about .frame-6 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 1594px;
+    left: 1172px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  }
+  
+  .about .frame-7 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 1326px;
+    left: 1448px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  }
+  
+  .about .frame-8 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    top: 1594px;
+    left: 1448px;
+    background-color: #372b2b;
+    border-radius: 15px;
+  } */
+
+  /* 4 kebawah ini buat nanti footer */
+  /* .about .frame-10 {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 2272px;
+    left: 505px;
+  } */
+
+  /* .about .frame-11 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  } */
+
+  /* .about .img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  } */
+
+  /* .about .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--sub-header-3-font-family);
+    font-weight: var(--sub-header-3-font-weight);
+    color: #fffafa;
+    font-size: var(--sub-header-3-font-size);
+    letter-spacing: var(--sub-header-3-letter-spacing);
+    line-height: var(--sub-header-3-line-height);
+    white-space: nowrap;
+    font-style: var(--sub-header-3-font-style);
+  } */
+
+  /* .about .frame-12 {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  } */
