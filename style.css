@@ -27,9 +27,9 @@ a {
 
   .about .div {
     background-color: #242424;
-    overflow: hidden;
+    overflow: visible;
     width: 1920px;
-    height: 1080px;
+    min-height: 100vh;
     position: relative;
   }
 
@@ -149,6 +149,32 @@ a {
     font-style: var(--header-4-font-style);
   }
 
+  .card-wrapper {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 600px;
+  }
+
+  .card {
+    background-color: #372b2b;
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
   /* .about .overlap {
     position: absolute;
     width: 1920px;
@@ -201,30 +227,7 @@ a {
     );
   }
 
-  .card-wrapper {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 600px;
-  }
-
-  .card {
-    background-color: #372b2b;
-    border-radius: 30px;
-    width: 300px;
-    height: 500px;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-  }
-
-  .card-img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 10px;
-  }
+  
   
   /* .about .card {
     top: 0;
