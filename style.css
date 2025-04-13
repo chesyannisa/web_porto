@@ -331,7 +331,7 @@ a {
   } */
 
   /* .about .text-wrapper-4 {
-    position: absolute;
+    position: relative;
     top: 1263px;
     left: 1111px;
     font-family: var(--header-4-font-family);
