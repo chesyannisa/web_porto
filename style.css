@@ -201,7 +201,24 @@ a {
     );
   }
 
-  .about .card {
+  .card-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .card {
+    background-color: #372b2b;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* .about .card {
     top: 0;
     left: 620px;
     position: absolute;
@@ -232,7 +249,7 @@ a {
     background-color: #372b2b;
     border-radius: 30px;
     overflow: hidden;
-  }
+  } */
 
   /* .about .rectangle {
     position: absolute;
