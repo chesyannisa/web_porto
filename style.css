@@ -1,21 +1,15 @@
- @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
 html,
 body {
-  margin: 0px;
+  margin: 0;
   height: 100%;
-} 
-/* a blue color as a generic focus style */
-/* button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
 }
-a {
-  text-decoration: none;
-}  */
 
 .about {
   background-color: #242424;
@@ -35,270 +29,252 @@ a {
   padding: 0 20px;
 }
 
-  /* ini tulisan "chesyannisa" */
-  .about .title {
-    position: absolute;
-    top: 80px;
-    left: 100px;
-    /* margin-top: 80px; */
-    font-family: var(--header-4-font-family);
-    font-weight: var(--header-4-font-weight);
-    color: #fffafa;
-    font-size: var(--header-4-font-size);
-    letter-spacing: var(--header-4-letter-spacing);
-    line-height: var(--header-4-line-height);
-    white-space: nowrap;
-    font-style: var(--header-4-font-style);
-  }
+.about .title {
+  margin-top: 80px;
+  font-family: var(--header-4-font-family);
+  font-weight: var(--header-4-font-weight);
+  color: #fffafa;
+  font-size: var(--header-4-font-size);
+  letter-spacing: var(--header-4-letter-spacing);
+  line-height: var(--header-4-line-height);
+  white-space: nowrap;
+  font-style: var(--header-4-font-style);
+}
 
-  /* ini ngatur si "project" ama "about" */
-  .about .navbar {
-    display: inline-flex;
-    align-items: center;
-    gap: 30px;
-    position: absolute;
-    top: 80px;
-    right: 100px;
-    font-family: var(--header-5-font-family);
-    font-weight: var(--header-5-font-weight);
-    color: #fffafa;
-    font-size: var(--header-5-font-size);
-    letter-spacing: var(--header-5-letter-spacing);
-    line-height: var(--header-5-line-height);
-    white-space: nowrap;
-    font-style: var(--header-5-font-style);
-  }
+.about .navbar {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  font-family: var(--header-5-font-family);
+  font-weight: var(--header-5-font-weight);
+  color: #fffafa;
+  font-size: var(--header-5-font-size);
+  letter-spacing: var(--header-5-letter-spacing);
+  line-height: var(--header-5-line-height);
+  white-space: nowrap;
+  font-style: var(--header-5-font-style);
+  align-self: flex-end;
+}
 
-  /* ini buat tulisan "chesya annisa izzati" */
-  .about .name {
-    position: relative;
-    top: 200px;
-    text-align: center;
-    font-family: var(--header-2-font-family);
-    font-weight: var(--header-2-font-weight);
-    color: #fffafa;
-    font-size: var(--header-2-font-size);
-    letter-spacing: var(--header-2-letter-spacing);
-    line-height: var(--header-2-line-height);
-    white-space: nowrap;
-    font-style: var(--header-2-font-style);
-  }
+.about .name,
+.about .prodi {
+  text-align: center;
+  margin-top: 120px;
+  color: #fffafa;
+}
 
-  /* buat tulisan prodi */
-  .about .prodi {
-    position: relative;
-    top: 200px;
-    text-align: center;
-    font-family: var(--header-4-font-family);
-    font-weight: var(--header-4-font-weight);
-    color: #fffafa;
-    font-size: var(--header-4-font-size);
-    letter-spacing: var(--header-4-letter-spacing);
-    line-height: var(--header-4-line-height);
-    white-space: nowrap;
-    font-style: var(--header-4-font-style);
-  }
+.about .name {
+  font-family: var(--header-2-font-family);
+  font-weight: var(--header-2-font-weight);
+  font-size: var(--header-2-font-size);
+  letter-spacing: var(--header-2-letter-spacing);
+  line-height: var(--header-2-line-height);
+  font-style: var(--header-2-font-style);
+}
 
-  .about .overlap-group-2 {
-    position: absolute;
-    width: 1550px;
-    height: 1204px;
-    top: 0;
-    left: 616px;
-  } 
+.about .prodi {
+  font-family: var(--header-4-font-family);
+  font-weight: var(--header-4-font-weight);
+  font-size: var(--header-4-font-size);
+  letter-spacing: var(--header-4-letter-spacing);
+  line-height: var(--header-4-line-height);
+  font-style: var(--header-4-font-style);
+}
 
-  /* ini kayaknya yg main rectangle deh */
-  .about .biografi-rectangle {
-    position: relative;
-    width: 800px;
-    height: 300px;
-    top: 320px;
-    right: 380px;
-    text-align: center;
-    background-color: #372b2b;
-    border-radius: 30px;
-  } 
+.about .overlap-group-2 {
+  position: relative;
+  margin-top: 80px;
+  width: 100%;
+}
 
-  .about .biografi {
-    position: absolute; 
-    top: 350px;
-    left: -350px;
-    font-family: var(--sub-header-1-font-family);
-    font-weight: var(--sub-header-1-font-weight);
-    color: #fffafa;
-    font-size: var(--sub-header-1-font-size);
-    letter-spacing: var(--sub-header-1-letter-spacing);
-    line-height: var(--sub-header-1-line-height);
-    font-style: var(--sub-header-1-font-style);
-    
-    max-width: 750px;     
-    margin: 0 auto;        
-    text-align: justify;   
-    white-space: normal;   
-    padding: 0 20px;       
-  }
-  
-  .about .experience {
-    position: absolute;
-    top: 650px;
-    left: -80px;
-    font-family: var(--header-4-font-family);
-    font-weight: var(--header-4-font-weight);
-    color: #fffafa;
-    font-size: var(--header-4-font-size);
-    letter-spacing: var(--header-4-letter-spacing);
-    line-height: var(--header-4-line-height);
-    white-space: nowrap;
-    font-style: var(--header-4-font-style);
-  }
+.about .biografi-rectangle {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  background-color: #372b2b;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
 
-  .card-wrapper {
-    position: relative;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 600px;
-  }
+.about .biografi {
+  font-family: var(--sub-header-1-font-family);
+  font-weight: var(--sub-header-1-font-weight);
+  color: #fffafa;
+  font-size: var(--sub-header-1-font-size);
+  letter-spacing: var(--sub-header-1-letter-spacing);
+  line-height: var(--sub-header-1-line-height);
+  font-style: var(--sub-header-1-font-style);
+  text-align: justify;
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
 
-  .card {
-    background-color: #372b2b;
-    border-radius: 30px;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-  }
+.about .experience {
+  text-align: center;
+  font-family: var(--header-4-font-family);
+  font-weight: var(--header-4-font-weight);
+  color: #fffafa;
+  font-size: var(--header-4-font-size);
+  letter-spacing: var(--header-4-letter-spacing);
+  line-height: var(--header-4-line-height);
+  font-style: var(--header-4-font-style);
+  margin-top: 40px;
+}
 
-  .card-img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 10px;
-  }
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+}
 
-  .card .text-wrapper {
-    font-family: var(--body-font-family);
-    font-weight: var(--body-font-weight);
-    color: #fffafa;
-    font-size: var(--body-font-size);
-    letter-spacing: var(--body-letter-spacing);
-    line-height: var(--body-line-height);
-    font-style: var(--body-font-style);
-  
-    max-width: 100%;
-    padding: 16px;           /* kasih ruang dalam card */
-    text-align: justify;
-    white-space: normal;
-    box-sizing: border-box;  /* supaya padding masuk hitungan lebar */
-  }
+.card {
+  background-color: #372b2b;
+  border-radius: 30px;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
 
-  .about .tools {
-    position: absolute;
-    top: 1150px;
-    left: 600px;
-    font-family: var(--header-4-font-family);
-    font-weight: var(--header-4-font-weight);
-    color: #fffafa;
-    font-size: var(--header-4-font-size);
-    letter-spacing: var(--header-4-letter-spacing);
-    line-height: var(--header-4-line-height);
-    white-space: nowrap;
-    font-style: var(--header-4-font-style);
-  }
-  
-  .tool-wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    justify-items: center;
-    max-width: 1000px;
-    margin: 100px auto 0 auto; /* turun, tengahin */
-  }
-  
-  .tool {
-    background-color: #372b2b;
-    border-radius: 20px;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .tool-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-  }
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
 
-  
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    background-color: #242424; /* Biar nyatu sama background */
-    padding: 40px 20px;
-    margin-top: 100px; /* jarak dari atas */
-    flex-wrap: wrap; /* biar responsif */
-  }
-  
-  .footer-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  
-  .icon-group {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-  }
-  
-  .footer-text {
-    font-family: var(--sub-header-3-font-family);
-    font-weight: var(--sub-header-3-font-weight);
-    color: #fffafa;
-    font-size: var(--sub-header-3-font-size);
-    letter-spacing: var(--sub-header-3-letter-spacing);
-    line-height: var(--sub-header-3-line-height);
-    white-space: nowrap;
-    font-style: var(--sub-header-3-font-style);
-  }
+.card .text-wrapper {
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
+  color: #fffafa;
+  font-size: var(--body-font-size);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  font-style: var(--body-font-style);
+  text-align: justify;
+  padding: 16px;
+  box-sizing: border-box;
+}
 
+.about .tools {
+  margin-top: 100px;
+  font-family: var(--header-4-font-family);
+  font-weight: var(--header-4-font-weight);
+  color: #fffafa;
+  font-size: var(--header-4-font-size);
+  letter-spacing: var(--header-4-letter-spacing);
+  line-height: var(--header-4-line-height);
+  font-style: var(--header-4-font-style);
+  text-align: center;
+}
 
-  .about .ellipse {
-    position: absolute;
-    top: 80px;
-    left: -200px; 
-    width: 500px;
-    height: 500px;
-    border-radius: 407px;
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(255, 248, 159, 0.5) 0%,
-      rgba(255, 248, 159, 0) 100%
-    );
-  }
+.tool-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
 
-  .about .ellipse-2 {
-    position: absolute;
-    top: 800px;
-    left: 8000px; 
-    width: 500px;
-    height: 500px;
-    border-radius: 407px;
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        rgba(250, 150, 186, 0.5) 0%,
-        rgba(250, 150, 186, 0) 100%
-    );
-  }
-  
+.tool {
+  background-color: #372b2b;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.tool-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: #242424;
+  padding: 40px 20px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-group {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.footer-text {
+  font-family: var(--sub-header-3-font-family);
+  font-weight: var(--sub-header-3-font-weight);
+  color: #fffafa;
+  font-size: var(--sub-header-3-font-size);
+  letter-spacing: var(--sub-header-3-letter-spacing);
+  line-height: var(--sub-header-3-line-height);
+  font-style: var(--sub-header-3-font-style);
+  white-space: nowrap;
+}
+
+.about .ellipse,
+.about .ellipse-2,
+.about .ellipse-3 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 407px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about .ellipse {
+  top: 0px;
+  left: -300px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 248, 159, 0.5) 0%,
+    rgba(255, 248, 159, 0) 100%
+  );
+}
+
+.about .ellipse-2 {
+  top: 1100px;
+  right: -200px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(250, 150, 186, 0.5) 0%,
+    rgba(250, 150, 186, 0) 100%
+  );
+}
+
+.about .ellipse-3 {
+  top: -900px;
+  right: -100px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(250, 150, 186, 0.5) 0%,
+    rgba(250, 150, 186, 0) 100%
+  );
+}
