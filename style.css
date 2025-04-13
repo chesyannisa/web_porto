@@ -444,23 +444,23 @@ a {
     position: absolute;
     top: 2272px;
     left: 505px;
-  } */
+  }
 
-  /* .about .frame-11 {
+  .about .frame-11 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     position: relative;
     flex: 0 0 auto;
-  } */
+  }
 
-  /* .about .img {
+  .about .img {
     position: relative;
     width: 30px;
     height: 30px;
-  } */
+  }
 
-  /* .about .text-wrapper-8 {
+  .about .text-wrapper-8 {
     position: relative;
     width: fit-content;
     font-family: var(--sub-header-3-font-family);
@@ -472,6 +472,47 @@ a {
     white-space: nowrap;
     font-style: var(--sub-header-3-font-style);
   } */
+
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #242424; /* Biar nyatu sama background */
+    padding: 40px 20px;
+    margin-top: 100px; /* jarak dari atas */
+    flex-wrap: wrap; /* biar responsif */
+  }
+  
+  .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .icon-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  
+  .footer-text {
+    font-family: var(--sub-header-3-font-family);
+    font-weight: var(--sub-header-3-font-weight);
+    color: #fffafa;
+    font-size: var(--sub-header-3-font-size);
+    letter-spacing: var(--sub-header-3-letter-spacing);
+    line-height: var(--sub-header-3-line-height);
+    white-space: nowrap;
+    font-style: var(--sub-header-3-font-style);
+  }
+  
 
   /* .about .frame-12 {
     display: inline-flex;
