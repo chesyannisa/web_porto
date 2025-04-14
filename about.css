@@ -31,18 +31,18 @@ body {
     color: #ff609b;
   }
   
-  .hero {
+  .opening {
     padding:80px 20px;
     text-align: center;
     background: linear-gradient(to left, #FFD1E1, #fefce8);
   }
   
-  .hero h1 {
+  .opening h1 {
     font-size: 50px;
     margin-bottom: 10px;
   }
   
-  .hero p {
+  .opening p {
     font-size: 17px;
     max-width: 600px;
     margin: auto;

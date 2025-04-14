@@ -31,7 +31,7 @@ body {
     color: #ff609b;
   }
   
-  .hero {
+  .opening {
     min-height: 100vh; /* ⬅️ ini yang bikin full layar */
     display: flex;
     justify-content: center;
@@ -41,12 +41,12 @@ body {
     background: linear-gradient(to bottom, #FFD1E1, #fefce8);
   }
   
-  .hero h1 {
+  .opening h1 {
     font-size: 50px;
     margin-bottom: 10px;
   }
   
-  .hero p {
+  .opening p {
     font-size: 17px;
     max-width: 600px;
     margin: auto;
