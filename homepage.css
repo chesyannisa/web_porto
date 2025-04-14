@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #f9f9f9;
     color: #333;
   }
@@ -38,12 +38,12 @@ body {
   }
   
   .hero h1 {
-    font-size: 48px;
+    font-size: 50px;
     margin-bottom: 10px;
   }
   
   .hero p {
-    font-size: 18px;
+    font-size: 17px;
     max-width: 600px;
     margin: auto;
   }
@@ -63,17 +63,37 @@ body {
     background-color: #FA96BA;
   }
   
-  .intro {
-    padding: 60px 20px;
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    /* background-color: #FFD1E1; */
+    padding: 40px 20px;
+    margin-top: 00px;
+    flex-wrap: wrap;
   }
   
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #f1f5f9;
-    font-size: 14px;
+  .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .icon-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  
+  .footer-text {
+    font-size: 17px;
+    max-width: 600px;
+    margin: auto;
   }
   
